@@ -62,6 +62,7 @@ func (this *Trie) StartsWith(prefix string) bool {
 
  // 212. 单词搜索 II
 // 1. dfs, 类似于岛屿问题
+// 时间复杂度O(n^2)
 
 
 type TrieNode struct {
